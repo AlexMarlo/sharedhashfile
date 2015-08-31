@@ -25,8 +25,8 @@
 #define __SHAREDHASHFILE_HPP__
 
 extern "C" {
-#include <shf.private.h>
-#include <shf.h>
+#include "shf.private.h"
+#include "shf.h"
 }
 
 class SharedHashFile {

@@ -339,7 +339,7 @@ int main(void)
                 tabs_parted  += shf->shf_mmap->wins[win].tabs_parted ;
             }
 #endif
-            fprintf(stderr, "%5.1f %5.1f %4lu %4lu",
+            fprintf(stderr, "%5.1f %5.1f %4llu %4llu",
                 (tabs_mmaps   - tabs_mmaps_old  ) / 1000.0,
                 (tabs_mremaps - tabs_mremaps_old) / 1000.0,
                 (tabs_shrunk  - tabs_shrunk_old )         ,

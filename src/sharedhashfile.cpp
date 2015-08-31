@@ -21,10 +21,10 @@
  * ============================================================================
  */
 
-#include <SharedHashFile.hpp>
+#include "sharedhashfile.hpp"
 
 extern "C" {
-#include <shf.defines.h>
+#include "shf.defines.h"
 }
 
 SharedHashFile::SharedHashFile()
